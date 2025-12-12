@@ -6,13 +6,45 @@
     <title>Document</title>
 </head>
 <style>
-    body{background-color: beige;text-align: center;background-image: url('siva.jpg');background-size: cover;
-         background-repeat: repeat;background-position: right top;margin: 100px;}
-    h1{font-family: Arial, Helvetica, sans-serif;}
-    p{color: blue;}
+    body{background-color: gold;margin: 100px;background-image: url('siva.jpg');padding: 0px;margin: 0px;}
+    h1{font-family: Arial, Helvetica, sans-serif;color: chartreuse;text-align: center;}
+    p{color: gold;font-size: 40px;text-align: center;}
+    div{background-color: aqua;width: 200px; border:10px solid gold;
+    margin: auto;padding: 100px;height:200px;}
+    .sivan{
+        display: flex;
+        /* flex-direction: column;   */
+        /* flex-wrap: wrap-reverse;      */
+        flex-flow: row-reverse;
+        background: gray;
+        border: 10px solid green;   
+        width: auto;
+        margin: 200px; 
+        height: auto; 
+        justify-content: space-around;
+    }
+    .sivan div{margin: 5px;padding: 7px; height: 30px;  width: 400px;border: 10px solid black ;}
 </style>
 <body>
     <h1>CSS example</h1>
     <p>example code of css</p>
+    <div>To implement CSS, you link CSS rules to your 
+        HTML document using one of three methods: 
+        external stylesheets, internal stylesheets, 
+        or inline styles. The external method is the 
+        most common and recommended practice for maintaining 
+        clean, organized code across multiple pages. </div>
+        <br>
+        <br>
+<div class="sivan">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>   
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    </div>
 </body>
 </html>
